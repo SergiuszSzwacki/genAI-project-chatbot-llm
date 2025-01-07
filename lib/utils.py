@@ -24,7 +24,7 @@ def enable_chat_history(func):
 
         # to show chat history on ui
         if "messages" not in st.session_state:
-            st.session_state["messages"] = [{"role": "assistant", "content": "Which information from source documents do you need?"}]
+            st.session_state["messages"] = [{"role": "assistant", "content": "What is your area of interest related to the Battle of Kircholm?"}]
         for msg in st.session_state["messages"]:
             st.chat_message(msg["role"]).write(msg["content"])
 
@@ -43,7 +43,7 @@ def display_msg(msg, author):
     st.chat_message(author).write(msg)
 
 def configure_llm():
-    llm = ChatOpenAI(model_name='gpt-4o', temperature=0, streaming=True)
+    llm = ChatOpenAI(model_name='gpt-4o', temperature=0, streaming=True)#, openai_api_key="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")
     return llm
 
 def print_qa(cls, question, answer):
