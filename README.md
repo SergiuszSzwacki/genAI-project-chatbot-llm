@@ -1,7 +1,7 @@
 # chatbot based on language model with access to source documents 
 
 LLM (Large Language Model) based chatbot using RAG (Retrieval-augmented generation) and langchain.
-Chatbot has access to trade register documents related to Ticos Systems company and is able to answer any question related to this company not only giving answer but also referencing the source document.
+Chatbot has access to articles related to Battle of Kircholm and is able to answer any question related to this battle not only giving answer but also referencing the source document.
 
 <img src="10.png" width="500px"/>
 
