@@ -3,7 +3,7 @@
 LLM (Large Language Model) based chatbot using RAG (Retrieval-augmented generation) and langchain.
 Chatbot has access to trade register documents related to Ticos Systems company and is able to answer any question related to this company not only giving answer but also referencing the source document.
 
-<img src="chat_example.png" width="500px"/>
+<img src="10.png" width="500px"/>
 
 as language model OpenAI GPT-4o was used
 to run chat in browser streamlit library was used
